@@ -76,8 +76,9 @@ ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
 ignore "DKIM-Signature:"
 hdr_order Date From To Cc
-alternative_order text/plain text/html *
 auto_view text/html
+alternative_order text/plain text/enriched text/html *
+bind attach <return> view-mailcap
 bind editor <Tab> complete-query
 bind editor ^T complete
 bind editor <space> noop 
