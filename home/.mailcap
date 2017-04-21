@@ -10,6 +10,7 @@
 # sudo aptitude install poppler-utils
 application/pdf;            pdftotext -q -raw %s -; copiousoutput
 application/vnd.fdf;        pdftotext -q -raw %s -; copiousoutput
+application/octet-stream;        pdftotext -q -raw %s -; copiousoutput
 
 # .html from gotbletu
 text/html; "$BROWSER" %s &; test=test -n "$DISPLAY"; needsterminal;
