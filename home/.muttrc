@@ -9,7 +9,10 @@ set index_format="%4C %Z %{%m/%d} %-15.15F (%4c) %s"
 
 # make sure Vim knows Mutt is a mail client and that we compose an UTF-8 encoded message
 set editor="vim -c 'set syntax=mail ft=mail enc=utf-8'"
-  
+
+# Ctrl-b for links
+#macro pager \cb 'urlview' 'Follow links with urlview'
+macro index,pager \cb ": unset wait_key; set pipe_decode\n|w3m\n: set wait_key; unset pipe_decode\n" "call w3m to extract URLs out of a message"
 # just scroll one line instead of full page
 set menu_scroll=yes
   
