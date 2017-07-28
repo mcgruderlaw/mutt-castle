@@ -8,6 +8,7 @@
 
 # .pdf
 # sudo aptitude install poppler-utils
+application/pdf;            zathura %s
 application/pdf;            pdftotext -q -raw %s -; copiousoutput
 application/vnd.fdf;        pdftotext -q -raw %s -; copiousoutput
 application/octet-stream;        pdftotext -q -raw %s -; copiousoutput
