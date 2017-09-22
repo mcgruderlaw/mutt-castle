@@ -81,6 +81,10 @@ ignore "DKIM-Signature:"
 hdr_order Date From To Cc
 auto_view text/html
 alternative_order text/plain text/enriched text/html *
+bind pager j next-line
+bind pager k previous-line
+bind pager gg top
+bind pager G bottom
 bind attach l view-attach
 bind attach <return> view-mailcap
 bind editor <Tab> complete-query
