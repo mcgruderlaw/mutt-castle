@@ -14,7 +14,8 @@ application/vnd.fdf;        pdftotext -q -raw %s -; copiousoutput
 application/octet-stream;        pdftotext -q -raw %s -; copiousoutput
 
 # .html from gotbletu
-text/html; "$BROWSER" %s &; test=test -n "$DISPLAY"; needsterminal;
+text/html; mv %s %s.html && qt.sh %s.html >/dev/null 2>/dev/null; needsterminal;
+# text/html; "$BROWSER" %s &; test=test -n "$DISPLAY"; needsterminal;
 text/html; "$BROWSERCLI" -I %{charset} -T text/html; copiousoutput;
 
 # microsoft office
