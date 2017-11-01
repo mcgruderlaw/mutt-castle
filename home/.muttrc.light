@@ -90,6 +90,7 @@ bind index m mail
 #------------------------------------------------------
 
 source ~/.homesick/repos/mutt-castle/home/mutt-colors-solarized/mutt-colors-solarized-light-16.muttrc
+source ~/.mutt/aliases
 
 #color hdrdefault cyan default
 #color attachment yellow default
@@ -133,31 +134,3 @@ source ~/.homesick/repos/mutt-castle/home/mutt-colors-solarized/mutt-colors-sola
 #color tilde brightmagenta black 
 #color index blue black ~F 
 #color index red black "~N|~O"
-
-alias Erin Erin Rogers <Erin@pipermanagement.com>
-alias Leon Leon Weiss <ljweisslaw@aol.com>
-alias astarr Andrew Starr <starra@oakgov.com>
-alias bob Bob Wilson <rw33480@yahoo.com>
-alias dalexander Darnell Alexander <hzzykv@comcast.net>
-alias dscott Dianna Scott <diannascott16@yahoo.com>
-alias evernote Evernote Account <mcgruderlaw.5842f@m.evernote.com>
-alias george George Johnson <gjgolf1000@woh.rr.com>
-alias hwp \"H. Wallace Parker\" <thinker0008@aol.com>
-alias jdesantis Jason M. DeSantis <desantisj@oakgov.com>
-alias jhayden \"John B. Hayden\" <wolfhayden@yahoo.com>
-alias len Len Travis <lenvontetravis@pdsicontractors.com>
-alias ljweisslaw Leon  <ljweisslaw@aol.com>
-alias lurton Lurton Lipscomb <resurrectionfinancial@gmail.com>
-alias mom Mary Ann McGruder <Mcgruder111@att.net>
-alias newman Newman Court <newmancourt@yahoo.com>
-alias parkslauri Lauri Parks <parkslauri@gmail.com>
-alias pma Parker McGruder & Assoc. <parkermcgruderlaw@gmail.com>
-alias reg Reggie Hayes <reggiehayes@pdsicontractors.com>
-alias swong Samantha Wong <wongs@oakgov.com>
-alias thomashibler Thomas Hibler <thomashibler@yahoo.com>
-alias darden_michelle Michelle Darden <darden_michelle@yahoo.com>
-alias joe.manuel Joe Manuel <joe.manuel@myrealtyselect.com>
-alias mkeast Marc Keast <keastm@oakgov.com>
-alias mccambrys Samone Mccambry <jaziyahmommy@icloud.com>
-alias keith Keith Smiley <ksmiley9027@sbcglobal.net>
-alias wskeete Warren Skeete <warren.skeete@gmail.com>
